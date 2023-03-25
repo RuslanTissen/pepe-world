@@ -1,0 +1,36 @@
+.picture{
+	.picture-container{
+		max-height: 50vh;
+		img{
+			width: 100%;
+			max-height: inherit;
+			object-fit: cover;
+			object-position: bottom;
+		}
+	}
+	.moto{
+		// background-color:rgb(84,84,84);
+		// background-color: #4c4c4c;
+		padding: 0 20px;
+			h1{
+				max-width: 800px;
+				margin: 20px auto;
+				padding: 20px 0;
+				text-align: left;
+				color: black;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: 700;
+				font-size: 2em;
+				mark{
+					background-color: white;
+					color:  rgb(75,129,244);
+				}
+			}
+	}
+	@media (min-width:1200px) {
+		h1{
+			font-size: 2rem;
+		}
+
+	}
+}
