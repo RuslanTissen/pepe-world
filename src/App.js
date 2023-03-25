@@ -17,7 +17,7 @@ function App() {
 	return (
 		<div className="app">
 			<Header />
-			{/* <Pictuer /> */}
+			<Pictuer />
 			{/* <div id={'alq'} >
 				<MidSection
 					image={photo2}

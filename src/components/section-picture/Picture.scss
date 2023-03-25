@@ -1,21 +1,20 @@
 .picture{
+	max-width: 1700px;
+	display: flex;
+	margin: 80px auto 50px;
+	flex-direction: row;
 	.picture-container{
-		max-height: 50vh;
+		max-width: 70%;
 		img{
 			width: 100%;
-			max-height: inherit;
+			height: 100%;
 			object-fit: cover;
-			object-position: bottom;
 		}
 	}
 	.moto{
-		// background-color:rgb(84,84,84);
-		// background-color: #4c4c4c;
-		padding: 0 20px;
+		padding: 40px 20px;
+		background-color:rgb(173,186,160) ;
 			h1{
-				max-width: 800px;
-				margin: 20px auto;
-				padding: 20px 0;
 				text-align: left;
 				color: black;
 				font-family: 'Montserrat', sans-serif;
