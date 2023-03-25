@@ -1,8 +1,9 @@
 .picture{
 	max-width: 1700px;
 	display: flex;
-	margin: 80px auto 50px;
+	margin: 40px auto 50px;
 	flex-direction: row;
+	padding: 0 80px;
 	.picture-container{
 		max-width: 70%;
 		img{
@@ -21,7 +22,7 @@
 				font-weight: 700;
 				font-size: 2em;
 				mark{
-					background-color: white;
+					background-color: transparent;
 					color:  rgb(75,129,244);
 				}
 			}

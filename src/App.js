@@ -17,6 +17,7 @@ function App() {
 	return (
 		<div className="app">
 			<Header />
+			<div className='greetings'><h1>Bienvenido a la Zona de Salud de Pepe!</h1></div>
 			<Pictuer />
 			{/* <div id={'alq'} >
 				<MidSection
