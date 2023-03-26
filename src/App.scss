@@ -1,9 +1,28 @@
 .app{
-	height:100%;
-	.greetings{
-		max-width: 1700px;
-		margin: 100px auto 0;
-		padding: 0 80px;
+	// height:100%;
+	.app-container{
+		padding:  0 60px;
+		.greetings{
+			max-width: 1700px;
+			margin: 100px auto 0;
+			font-family: 'Montserrat', sans-serif;
+				font-weight: 700;
+		}
+	}
+	@media (max-width:1200px) {
+		.app-container{
+			padding:  0 40px;
+		}
+	}
+	@media (max-width:900px) {
+		.app-container{
+			padding:  0 30px;
+		}
+	}
+	@media (max-width:600px) {
+		.app-container{
+			padding:  0 20px;
+		}
 	}
 }
 

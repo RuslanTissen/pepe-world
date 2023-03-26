@@ -16,17 +16,18 @@ function App() {
 
 	return (
 		<div className="app">
-			<Header />
-			<div className='greetings'><h1>Bienvenido a la Zona de Salud de Pepe!</h1></div>
-			<Pictuer />
-			{/* <div id={'alq'} >
+			<div className='app-container'>
+				<Header />
+				<div className='greetings'><h1>Bienvenido a la Zona de Salud de Pepe!</h1></div>
+				<Pictuer />
+				{/* <div id={'alq'} >
 				<MidSection
 					image={photo2}
 					// title={"Nuestro lema:"}
 					text={"Nuestro personal tiene muchos años de experiencia. Y seguimos mejorando tanto los métodos de limpieza como los medios para mejorar el servicio."}
 				/>
 			</div> */}
-			
+			</div>
 
 			<Footer />
 		</div>

@@ -3,7 +3,7 @@
 	display: flex;
 	margin: 40px auto 50px;
 	flex-direction: row;
-	padding: 0 80px;
+	// padding: 0 80px;
 	.picture-container{
 		max-width: 70%;
 		img{
@@ -15,8 +15,9 @@
 	.moto{
 		padding: 40px 20px;
 		background-color:rgb(173,186,160) ;
+		display: flex;
+		align-items: center;
 			h1{
-				text-align: left;
 				color: black;
 				font-family: 'Montserrat', sans-serif;
 				font-weight: 700;
