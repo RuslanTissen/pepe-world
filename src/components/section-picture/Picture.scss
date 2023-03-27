@@ -1,37 +1,116 @@
 .picture{
-	max-width: 1700px;
-	display: flex;
-	margin: 40px auto 50px;
-	flex-direction: row;
-	// padding: 0 80px;
+	.greetings{
+		width: 100%;
+		margin: 100px 0 20px;
+	}
 	.picture-container{
-		max-width: 70%;
 		img{
+			display: block;
 			width: 100%;
-			height: 100%;
 			object-fit: cover;
 		}
 	}
 	.moto{
-		padding: 40px 20px;
-		background-color:rgb(173,186,160) ;
-		display: flex;
-		align-items: center;
-			h1{
-				color: black;
-				font-family: 'Montserrat', sans-serif;
-				font-weight: 700;
-				font-size: 2em;
-				mark{
-					background-color: transparent;
-					color:  rgb(75,129,244);
-				}
-			}
-	}
-	@media (min-width:1200px) {
-		h1{
-			font-size: 2rem;
+		padding: 30px 50px;
+		background-color:	rgb(173,186,160);
+		p{
+			margin: 20px 0 30px;
 		}
-
+		a{
+			color: white;
+			background-color: rgb(75,129,244);
+			font-size: 1rem;
+			font-weight: 500;
+			text-transform: uppercase;
+			padding: 10px 20px;
+			border-radius: 50px;
+			margin: 0px auto 0px 0;
+			transition: all 0.3s;
+		}
+		a:hover{
+			transform: scale(1.15);
+		}
 	}
+	
+	@media (min-width:1200px) {
+		display: flex;
+		flex-wrap: wrap;
+		.greetings{
+			width: 100%;
+			margin: 100px 0 20px;
+		}
+		.picture-container{
+			width: 60%;
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+		.moto{
+			width: 40%;
+			height: inherit;
+			display: flex;
+			flex-direction: column;
+			padding: 30px;
+			background-color:	rgb(173,186,160);
+			p{
+				margin: 20px 0 30px;
+			}
+			a{
+				color: white;
+				background-color: rgb(75,129,244);
+				font-size: 1rem;
+				font-weight: 500;
+				text-transform: uppercase;
+				padding: 10px 20px;
+				border-radius: 50px;
+				margin: 0px auto 0px 0;
+				transition: all 0.3s;
+			}
+			a:hover{
+				transform: scale(1.15);
+			}
+		}
+	}
+
+
+
+
+	// .picture-container{
+	// 	padding: 0 20px;
+	// 	img{
+	// 		width: 100%;
+	// 	}
+	// }
+	// @media (min-width:1200px) {
+	// 	max-width: 1700px;
+	// 	display: flex;
+	// 	margin: 40px auto 50px;
+	// 	flex-direction: row;
+	// 	.picture-container{
+	// 		max-width: 70%;
+	// 		img{
+	// 			width: 100%;
+	// 			height: 100%;
+	// 			object-fit: cover;
+	// 	}
+	// }
+	// .moto{
+	// 	padding: 40px 20px;
+	// 	background-color:rgb(173,186,160) ;
+	// 	display: flex;
+	// 	align-items: center;
+	// 		h1{
+	// 			color: black;
+	// 			font-family: 'Montserrat', sans-serif;
+	// 			font-weight: 700;
+	// 			font-size: 2em;
+	// 			mark{
+	// 				background-color: transparent;
+	// 				color:  rgb(75,129,244);
+	// 			}
+	// 		}
+	// 	}
+	// }
 }

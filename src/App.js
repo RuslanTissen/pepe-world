@@ -18,7 +18,7 @@ function App() {
 		<div className="app">
 			<div className='app-container'>
 				<Header />
-				<div className='greetings'><h1>Bienvenido a la Zona de Salud de Pepe!</h1></div>
+				{/* <div className='greetings'><h1>Bienvenido a la Zona de Salud de Pepe!</h1></div> */}
 				<Pictuer />
 				{/* <div id={'alq'} >
 				<MidSection
