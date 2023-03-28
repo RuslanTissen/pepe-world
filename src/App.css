@@ -1,4 +1,7 @@
-.app {
-  height: 100%;
-  box-sizing: border-box;
+.app .app-container {
+  width: 95vw;
+  max-width: 1700px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 auto;
 }/*# sourceMappingURL=App.css.map */

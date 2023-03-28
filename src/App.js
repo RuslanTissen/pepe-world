@@ -2,6 +2,7 @@ import './App.scss';
 import Header from './components/header/Header.jsx';
 // import MidSection from './components/midle/Mid-section';
 import Pictuer from './components/section-picture/Picture';
+import Exercise from './components/exersize/exercise';
 import Footer from './components/footer/Footer';
 // import photo2 from "./images/photo-2.png"
 // import photo3 from "./images/photo-3.png"
@@ -20,10 +21,11 @@ function App() {
 				<Header />
 				{/* <div className='greetings'><h1>Bienvenido a la Zona de Salud de Pepe!</h1></div> */}
 				<Pictuer />
+				<Exercise />
 				{/* <div id={'alq'} >
 				<MidSection
 					image={photo2}
-					// title={"Nuestro lema:"}
+					title={"Nuestro lema:"}
 					text={"Nuestro personal tiene muchos años de experiencia. Y seguimos mejorando tanto los métodos de limpieza como los medios para mejorar el servicio."}
 				/>
 			</div> */}
