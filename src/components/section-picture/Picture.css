@@ -29,7 +29,7 @@
 .picture .moto a:hover {
   transform: scale(1.15);
 }
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   .picture {
     display: flex;
     flex-wrap: wrap;
