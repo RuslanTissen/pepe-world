@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import './Header.scss'
 import { GiHamburgerMenu } from 'react-icons/gi';
 import AnchorLink from 'react-anchor-link-smooth-scroll-v2';
-import { AiOutlineHome } from 'react-icons/ai'
-import {BiPlusMedical} from "react-icons/bi"
+import {GiBodyBalance} from "react-icons/gi"
 
 function Header() {
 	const [show, setShow] = useState(false)
@@ -12,7 +11,7 @@ function Header() {
 		<div className="nav">
 			<ul className='ul-first'>
 				{/* <AnchorLink href="#foto" className="logo" style={{fontSize:"1.5em"}}><AiOutlineHome /></AnchorLink> */}
-				<li className="logo"><AnchorLink>PIPI <BiPlusMedical/> SPORT</AnchorLink></li>
+				<li className="logo"><AnchorLink>PIPI <GiBodyBalance/> SPORT</AnchorLink></li>
 				<li className="alq"><AnchorLink href="#alq">PERSONAL</AnchorLink> </li>
 				<li className="detalles"><AnchorLink href="#detalles">REMEDIOS</AnchorLink></li>
 				<li className="contacto"><AnchorLink href="#contacto">CONTACTO</AnchorLink></li>

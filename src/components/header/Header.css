@@ -29,6 +29,7 @@
   color: white;
   transition: all 0.2s;
   font-weight: 300;
+  position: relative;
 }
 .nav ul li a:hover {
   color: rgb(165, 163, 163);
