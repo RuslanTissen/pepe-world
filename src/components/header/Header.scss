@@ -1,7 +1,7 @@
 .nav{
 	width: 100vw;
 	height: fit-content;
-	background-color: #2d2d2d;
+	background-color: rgb(36,66,106);
 	position: fixed;
 	top: 0;
   	right: 0;
@@ -13,11 +13,19 @@
 		font-family: 'Montserrat', sans-serif;
 		font-size: 1.5em;
 		color: white;
-		li{ 
+		.logo{
 			a{
 				display: flex;
-				height: 40px;
 				align-items: center;
+				justify-content: center;
+				svg{
+					margin: 0 10px;
+				}
+			}
+		}
+		li{ 
+			a{
+				height: 40px;
 				color: white;
 				transition: all .2s;
 				font-weight: 300;
@@ -40,7 +48,7 @@
 		svg:not(:first-child){
 			display: none;
 		}
-	@media (max-width:1200px) {
+	@media (max-width:900px) {
 		.logo{
 			display: flex;
 			svg:first-child{

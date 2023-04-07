@@ -1,0 +1,57 @@
+.philosophie{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 30px;
+	max-height: fit-content;
+	.moto-container{
+		padding: 20px 0 5px;	
+	}
+	.tex-container{
+		font-weight: 300;
+		padding: 10px 0;
+	}
+	.image-container{
+		max-height: 600px;
+		.foto{
+			width: 100%;
+			max-height: 200px;
+			object-fit: cover;
+		}
+		.img2{
+			margin: 10px 0;
+		}
+	}
+	@media (min-width: 500px) {
+		.image-container{
+			max-height: 900px;
+			.foto{
+				width: 100%;
+				max-height: 300px;
+				object-fit: cover;
+			}
+			.img2{
+				margin: 10px 0;
+			}
+		}
+	}
+	@media (min-width: 900px) {
+		.image-container{
+			max-height: 900px;
+			display: flex;
+			.foto{
+				width: 33.33%;
+				max-height: 400px;
+				object-fit: cover;
+			}
+			.img1{
+				padding: 15px 10px 15px 0;
+			}
+			.img2{
+				margin: 0;
+				padding: 15px 10px 15px 10px;
+			}
+			.img3{
+				padding: 15px 0 15px 10px;
+			}
+		}
+	}
+}

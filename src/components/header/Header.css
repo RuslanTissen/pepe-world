@@ -2,7 +2,7 @@
   width: 100vw;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: #2d2d2d;
+  background-color: rgb(36, 66, 106);
   position: fixed;
   top: 0;
   right: 0;
@@ -16,10 +16,16 @@
   font-size: 1.5em;
   color: white;
 }
-.nav ul li a {
+.nav ul .logo a {
   display: flex;
-  height: 40px;
   align-items: center;
+  justify-content: center;
+}
+.nav ul .logo a svg {
+  margin: 0 10px;
+}
+.nav ul li a {
+  height: 40px;
   color: white;
   transition: all 0.2s;
   font-weight: 300;
@@ -40,7 +46,7 @@
 .nav svg:not(:first-child) {
   display: none;
 }
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   .nav .logo {
     display: flex;
   }

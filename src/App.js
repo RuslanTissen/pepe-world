@@ -10,6 +10,7 @@ import Footer from './components/footer/Footer';
 // import personal from "./images/personal.png"
 // import wa from "./images/WhatsAppButtonGreenMedium.png"
 import { BsWhatsapp } from "react-icons/bs"
+import Philosophie from './components/philosophie/Philosophie';
 
 
 function App() {
@@ -17,18 +18,15 @@ function App() {
 
 	return (
 		<div className="app">
+			<Header />
 			<div className='app-container'>
-				<Header />
-				{/* <div className='greetings'><h1>Bienvenido a la Zona de Salud de Pepe!</h1></div> */}
+				
 				<Pictuer />
-				<Exercise />
-				{/* <div id={'alq'} >
-				<MidSection
-					image={photo2}
-					title={"Nuestro lema:"}
-					text={"Nuestro personal tiene muchos años de experiencia. Y seguimos mejorando tanto los métodos de limpieza como los medios para mejorar el servicio."}
-				/>
-			</div> */}
+
+				<Philosophie/>
+
+				{/* <Exercise /> */}
+				
 			</div>
 
 			<Footer />
@@ -37,3 +35,13 @@ function App() {
 }
 
 export default App;
+
+
+
+{/* <div id={'alq'} >
+				<MidSection
+					image={photo2}
+					title={"Nuestro lema:"}
+					text={"Nuestro personal tiene muchos años de experiencia. Y seguimos mejorando tanto los métodos de limpieza como los medios para mejorar el servicio."}
+				/>
+			</div> */}

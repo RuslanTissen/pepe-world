@@ -17,6 +17,7 @@
   .section .section-text .price {
     padding: 30px 0;
     text-align: center;
+    color: white;
   }
   .section .section-text .email {
     display: flex;

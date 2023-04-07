@@ -1,9 +1,15 @@
 .app{
 	.app-container{
-		width: 95vw;
+		// width: 95vw;
 		max-width: 1700px;
 		height: fit-content;
+		padding: 0 15px;
 		margin: 0 auto;
+
+		@media (min-height: 900px) {
+			padding: 0 30px;	
+		}
+
 		// .greetings{
 		// 	max-width: inherit;
 		// 	margin: 80px auto 0;
