@@ -1,19 +1,30 @@
 .exercise {
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 75px;
+}
+.exercise .exercise-text {
   height: -moz-fit-content;
   height: fit-content;
 }
-.exercise .exercise-images .exercise-images-big {
-  margin: 20px 0;
+.exercise .exercise-text h1 {
+  text-transform: uppercase;
+}
+.exercise .exercise-text p {
+  font-weight: 300;
+  margin: 10px 0 5px;
 }
 .exercise .exercise-images .exercise-images-big img {
   width: 100%;
-  height: 800px;
+  max-height: 800px;
   -o-object-fit: cover;
      object-fit: cover;
   display: block;
+  padding: 10px 0;
 }
 .exercise .exercise-images .exercise-images-small {
-  height: 800px;
+  max-height: 800px;
   display: flex;
 }
 .exercise .exercise-images .exercise-images-small .box1 {
@@ -24,7 +35,7 @@
   height: 60%;
   -o-object-fit: cover;
      object-fit: cover;
-  padding: 0 10px 10px 0;
+  padding: 0 5px 5px 0;
   display: block;
 }
 .exercise .exercise-images .exercise-images-small .box1 .image-3 {
@@ -32,7 +43,7 @@
   height: 40%;
   -o-object-fit: cover;
      object-fit: cover;
-  padding: 10px 10px 0 0;
+  padding: 5px 5px 0 0;
   display: block;
 }
 .exercise .exercise-images .exercise-images-small .box2 {
@@ -43,7 +54,7 @@
   height: 40%;
   -o-object-fit: cover;
      object-fit: cover;
-  padding: 0 0 10px 10px;
+  padding: 0 0 5px 5px;
   display: block;
 }
 .exercise .exercise-images .exercise-images-small .box2 .image-5 {
@@ -51,7 +62,7 @@
   height: 60%;
   -o-object-fit: cover;
      object-fit: cover;
-  padding: 10px 0 0 10px;
+  padding: 5px 0 0 5px;
   display: block;
 }
 @media (min-width: 900px) {
@@ -67,12 +78,23 @@
   }
   .exercise .exercise-images .exercise-images-small {
     width: 50%;
-    margin: 20px 0 0 0;
   }
   .exercise .exercise-images .exercise-images-small .box1 {
     width: 50%;
   }
+  .exercise .exercise-images .exercise-images-small .box1 .image-2 {
+    padding: 0 10px 10px 0;
+  }
+  .exercise .exercise-images .exercise-images-small .box1 .image-3 {
+    padding: 10px 10px 0 0;
+  }
   .exercise .exercise-images .exercise-images-small .box2 {
     width: 50%;
+  }
+  .exercise .exercise-images .exercise-images-small .box2 .image-4 {
+    padding: 0 0 10px 10px;
+  }
+  .exercise .exercise-images .exercise-images-small .box2 .image-5 {
+    padding: 10px 0 0 10px;
   }
 }/*# sourceMappingURL=exercise.css.map */

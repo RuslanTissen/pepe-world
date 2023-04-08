@@ -10,12 +10,8 @@ function exercise() {
 	return (
 		<div className="exercise">
 			<div className="exercise-text">
-				<h4>recovery sport</h4>
+				<h1>recovery sport</h1>
 				<p>Rehabilitation sports serve both young and old to restore health. Be it back pain, shoulder problems, hip problems, post surgery, accident/injury, etc.</p>
-			</div>
-
-			<div className="exercise-button">
-
 			</div>
 
 			<div className="exercise-images">

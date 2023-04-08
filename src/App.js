@@ -10,7 +10,8 @@ import Footer from './components/footer/Footer';
 // import personal from "./images/personal.png"
 // import wa from "./images/WhatsAppButtonGreenMedium.png"
 import { BsWhatsapp } from "react-icons/bs"
-import Philosophie from './components/philosophie/Philosophie';
+import Philosophie from './components/philosophie/Philosophie.jsx';
+import Nutrion from './components/nutrition/Nutrion.jsx';
 
 
 function App() {
@@ -20,13 +21,15 @@ function App() {
 		<div className="app">
 			<Header />
 			<div className='app-container'>
-				
+
 				<Pictuer />
 
-				<Philosophie/>
+				<Philosophie />
+
+				<Nutrion />
 
 				{/* <Exercise /> */}
-				
+
 			</div>
 
 			<Footer />

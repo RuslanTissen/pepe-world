@@ -1,4 +1,5 @@
 import "./Philosophie.scss"
+import React from 'react'
 import img1 from "../../images/img1.jpg"
 import img2 from "../../images/img2.jpg"
 import img3 from "../../images/img3.jpg"
@@ -15,7 +16,7 @@ export default function Philosophie(){
 			</div>
 
 			<div className="tex-container">
-				<p>It is an interplay that is as fascinating as it is complex: muscles, joints and the spine keep us flexible and do everything we want to. Almost as if by itself. But if something gets "messed up" in this system, it can have painful and even chronic effects on the entire body. Often also on our entire life. As a physiotherapist, it is my job to minimize these effects or, at best, to prevent them entirely through targeted prevention.</p>
+				<p>It is an interplay that is as fascinating as it is complex: muscles, joints and the spine keep us flexible and do everything we want to. Almost as if by itself. But if something gets "messed up" in this system, it can have painful and even chronic effects on the entire body. Often also on our entire life. As a coach, it is my job to minimize these effects or, at best, to prevent them entirely through targeted prevention.</p>
 			</div>
 
 			<div className="image-container">

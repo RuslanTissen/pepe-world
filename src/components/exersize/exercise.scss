@@ -1,23 +1,29 @@
 .exercise{
-	height: fit-content;
+	max-height: fit-content;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 75px;
 	.exercise-text{
-
-	}
-	.exercise-button{
-
+		height: fit-content;
+		h1{
+			text-transform: uppercase;
+		}
+		p{
+			font-weight: 300;
+			margin: 10px 0 5px;
+		}
 	}
 	.exercise-images{
 		.exercise-images-big{
-			margin: 20px 0;			
 			img{
 				width: 100%;
-				height: 800px;
+				max-height: 800px;
 				object-fit: cover;
 				display: block;
+				padding: 10px 0;
 			}
 		}
 		.exercise-images-small{
-			height: 800px;
+			max-height: 800px;
 			display: flex;
 			.box1{
 				width: 50%;
@@ -25,14 +31,14 @@
 					width: 100%;
 					height: 60%;
 					object-fit: cover;
-					padding: 0 10px 10px 0;
+					padding: 0 5px 5px 0;
 					display: block;
 				}
 				.image-3{
 					width: 100%;
 					height: 40%;
 					object-fit: cover;
-					padding: 10px 10px 0 0 ;
+					padding: 5px 5px 0 0 ;
 					display: block;
 				}
 			}
@@ -42,14 +48,14 @@
 					width: 100%;
 					height: 40%;
 					object-fit: cover;
-					padding: 0 0 10px 10px;
+					padding: 0 0 5px 5px;
 					display: block;
 				}
 				.image-5{
 					width: 100%;
 					height: 60%;
 					object-fit: cover;
-					padding: 10px 0 0 10px;
+					padding: 5px 0 0 5px;
 					display: block;
 				}
 			}
@@ -67,12 +73,24 @@
 			}
 			.exercise-images-small{
 				width: 50%;
-				margin: 20px 0 0 0;
+				// margin: 20px 0 0 0;
 				.box1{
 					width: 50%;
+					.image-2{
+						padding: 0 10px 10px 0;
+					}
+					.image-3{
+						padding: 10px 10px 0 0 ;
+					}
 				}
 				.box2{
 					width: 50%;
+					.image-4{
+						padding: 0 0 10px 10px;
+					}
+					.image-5{
+						padding: 10px 0 0 10px;
+					}
 				}
 			}
 		}

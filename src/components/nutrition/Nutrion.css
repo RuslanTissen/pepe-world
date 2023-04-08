@@ -1,0 +1,12 @@
+.nutrition {
+  margin: 75px 0;
+  max-height: 500px;
+}
+.nutrition .nutrition__picture--container {
+  max-width: 250px;
+  max-height: 100%;
+}
+.nutrition .nutrition__picture--container img {
+  max-width: 100%;
+  max-height: 100%;
+}/*# sourceMappingURL=Nutrion.css.map */
