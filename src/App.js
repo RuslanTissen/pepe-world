@@ -22,9 +22,9 @@ function App() {
 			<Header />
 			<div className='app-container'>
 
-				<Pictuer />
+				{/* <Pictuer />
 
-				<Philosophie />
+				<Philosophie /> */}
 
 				<Nutrion />
 

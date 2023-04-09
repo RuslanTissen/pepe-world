@@ -28,7 +28,16 @@ function Nutrion() {
 			</div>
 
 
-			<Carousel>
+			
+
+		</div>
+	)
+}
+
+export default Nutrion
+
+
+{/* <Carousel>
 				<div>
 					<img src={ntr1} />
 					<p className="legend">Legend 1</p>
@@ -41,10 +50,4 @@ function Nutrion() {
 					<img src={ntr3} />
 					<p className="legend">Legend 3</p>
 				</div>
-			</Carousel>
-
-		</div>
-	)
-}
-
-export default Nutrion
+			</Carousel> */}

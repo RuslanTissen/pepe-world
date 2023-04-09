@@ -25,6 +25,42 @@
 				object-fit: cover;
 			}
 		}
+		
 	}
-	
+	@media (min-width: 900px) {
+		.nutrition__text--container{
+			h1{
+			font-size: 3.5rem;
+			}
+		}
+	}
 }
+
+
+
+
+// .carousel-root{
+// 	.carousel-slider{
+// 		.control-dots{
+
+// 		}
+// 		.slide-wrapper{
+
+// 		}
+
+// 		.control-arrow{
+// 			.carousel-status{
+// 				display: none;
+// 				visibility: hidden;
+// 		}
+// 		}
+		
+// 	}
+// 	.carousel{
+// 		.thumbs-wrapper{
+// 			.thumbs {
+
+// 			}
+// 		}
+// 	}
+// }
