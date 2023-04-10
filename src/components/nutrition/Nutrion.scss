@@ -66,7 +66,7 @@
 		.tips__container{
 			padding: 32px;
 			height: 60%;
-			h3{
+			h2{
 				margin-bottom: 10px;
 			}
 			p{
@@ -79,16 +79,16 @@
 			background-color: rgb(255,221,0);
 		}
 		.tips__container2{
-			background-color: rgb(207,171,145);
+			background-color: rgb(239,127,19);
 		}
 		.tips__container3{
 			background-color: rgb(204,0,9);
 		}
 		.tips__container4{
-			background-color: rgb(0,119,200);
+			background-color: rgb(174,98,158);
 		}
 		.tips__container5{
-			background-color:rgb(239,127,19);
+			background-color:rgb(0,119,200);
 		}
 		.tips__container6{
 			background-color: rgb(0,133,62);
@@ -100,6 +100,11 @@
 				width: 48%;
 				flex: 1 0 48%;
 				border: 5px;
+			}
+			.tips__container{
+				p{
+					font-size: .8rem;
+				}
 			}
 		}
 	}
@@ -116,7 +121,13 @@
 			.images{
 				width: 50%;
 				flex: 1 0 31%;
+				.tips__container{
+					p{
+						font-size: 1.3rem;
+					}
+				}
 			}
+			
 		}
 	}
 	

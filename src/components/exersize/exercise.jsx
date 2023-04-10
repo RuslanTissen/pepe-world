@@ -1,10 +1,10 @@
 import React from "react"
 import './exercise.scss'
-import image1 from "../../images/exercise-1.png"
-import image2 from "../../images/exercise-2.png"
-import image3 from "../../images/exercise-3.png"
-import image4 from "../../images/exercise-4.png"
-import image5 from "../../images/exercise-5.png"
+import image1 from "../../images/exercise-1.jpg"
+import image2 from "../../images/exercise-2.jpg"
+import image3 from "../../images/exercise-3.jpg"
+import image4 from "../../images/exercise-4.jpg"
+import image5 from "../../images/exercise-5.jpg"
 
 function exercise() {
 	return (
@@ -24,8 +24,8 @@ function exercise() {
 						<img src={image3} alt="" className="image-3" />
 					</div>
 					<div className="box2">
-						<img src={image4} alt="" className="image-4" />
-						<img src={image5} alt="" className="image-5" />
+						<img src={image5} alt="" className="image-4" />
+						<img src={image4} alt="" className="image-5" />
 					</div>
 				</div>
 			</div>

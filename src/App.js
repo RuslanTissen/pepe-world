@@ -26,9 +26,10 @@ function App() {
 
 				<Philosophie />
 
+				<Exercise />
+
 				<Nutrion />
 
-				<Exercise />
 
 			</div>
 
