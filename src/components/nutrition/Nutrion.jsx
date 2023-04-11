@@ -3,15 +3,15 @@ import "./Nutrion.scss"
 
 function Nutrion() {
 	return (
-		<div className='nutrition'>
+		<div className='nutrition' id='nutrition'>
 			<div className="nutrition-container">
 				<div className="nutrition__text--container">
-					<h1>WE ARE WHAT WE EAT</h1>
+					<h1>WE ARE WHAT WE EAT.</h1>
 					<p>A Mediterranean diet remains one of the gold standards for living longer and more healthfully. This pattern is characterized by a high intake of fruits and vegetables, whole grains, pulses, healthful fats from nuts, olive oil, avocado, herbs and spices. It includes seafood a few times a week.</p>
 				</div>
 
 				<div className="link-container">
-					<a href='mailto:rthyssen73@gmail.com' className="btn">learn more</a>
+					<a href='mailto:priscylatosti@gmail.com' className="btn">learn more</a>
 				</div>
 
 			</div>
@@ -60,7 +60,6 @@ function Nutrion() {
 					</div>
 				</div>
 			</div>
-
 		</div>
 	)
 }

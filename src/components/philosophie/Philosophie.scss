@@ -11,21 +11,44 @@
 	}
 	.image-container{
 		max-height: 600px;
+		position: relative;
 		.foto{
 			width: 100%;
-			max-height: 200px;
+			max-height: 180px;
 			object-fit: cover;
 		}
 		.img2{
 			margin: 10px 0;
 		}
+		a{
+			position: absolute;
+			bottom: 15px;
+			right: 15px;
+			padding: 5px;
+			display: flex;
+			border-radius: 50%;
+			border: 1px solid black;
+			transition: all 0.3s;
+			z-index: 1;
+			svg{
+				color: white;
+				font-size: 150%;
+			}
+		}
+		a:hover{
+			background-color: white;
+			svg{
+				color: black;
+				// padding: 1px;
+			}
+		}
 	}
 	@media (min-width: 500px) {
 		.image-container{
-			max-height: 900px;
+			max-height: 1050px;
 			.foto{
 				width: 100%;
-				max-height: 300px;
+				max-height: 330px;
 				object-fit: cover;
 			}
 			.img2{
@@ -43,14 +66,14 @@
 				object-fit: cover;
 			}
 			.img1{
-				padding: 15px 10px 15px 0;
+				padding: 15px 10px 0 0;
 			}
 			.img2{
 				margin: 0;
-				padding: 15px 10px 15px 10px;
+				padding: 15px 10px 0 10px;
 			}
 			.img3{
-				padding: 15px 0 15px 10px;
+				padding: 15px 0 0 10px;
 			}
 		}
 	}

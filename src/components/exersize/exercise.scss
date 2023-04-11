@@ -44,6 +44,7 @@
 			}
 			.box2{
 				width: 50%;
+				position: relative;
 				.image-4{
 					width: 100%;
 					height: 40%;
@@ -57,6 +58,28 @@
 					object-fit: cover;
 					padding: 5px 0 0 5px;
 					display: block;
+				}
+				a{
+					position: absolute;
+					bottom: 15px;
+					right: 15px;
+					padding: 5px;
+					display: flex;
+					border-radius: 50%;
+					border: 1px solid black;
+					transition: all 0.3s;
+					z-index: 1;
+					svg{
+						color: black;
+						font-size: 150%;
+					}
+				}
+				a:hover{
+					background-color: black;
+					svg{
+						color: white;
+						padding: 1px;
+					}
 				}
 			}
 		}

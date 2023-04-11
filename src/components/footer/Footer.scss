@@ -8,7 +8,9 @@
 		height: 50px;
 		display: flex;
 		align-items: center;
+		justify-content: center;
 		margin: 0 auto;
+		// padding: 0 10px;
 		img, a{
 			height: 40px;
 			width: 40px;
@@ -16,11 +18,14 @@
 			justify-content: center;
 			align-items: center;
 			color: white;
-			margin-right: 10px;
 			transition: all .2s;
 			&:hover{
 				opacity: 0.5;;
 			}
+		}
+		img, a:not(:last-child){
+			margin-right: 10px;
+
 		}
 		a svg{
 			font-size: 1.5em;

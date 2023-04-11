@@ -5,12 +5,14 @@ import image2 from "../../images/exercise-2.jpg"
 import image3 from "../../images/exercise-3.jpg"
 import image4 from "../../images/exercise-4.jpg"
 import image5 from "../../images/exercise-5.jpg"
+import AnchorLink from "react-anchor-link-smooth-scroll-v2"
+import { BsArrowDownCircleFill } from "react-icons/bs"
 
 function exercise() {
 	return (
-		<div className="exercise">
+		<div className="exercise" id="exercise">
 			<div className="exercise-text">
-				<h1>recovery sport</h1>
+				<h1>recovery sport.</h1>
 				<p>Rehabilitation sports serve both young and old to restore health. Be it back pain, shoulder problems, hip problems, post surgery, accident/injury, etc.</p>
 			</div>
 
@@ -26,6 +28,7 @@ function exercise() {
 					<div className="box2">
 						<img src={image5} alt="" className="image-4" />
 						<img src={image4} alt="" className="image-5" />
+						<AnchorLink href="#nutrition"><BsArrowDownCircleFill /></AnchorLink>
 					</div>
 				</div>
 			</div>

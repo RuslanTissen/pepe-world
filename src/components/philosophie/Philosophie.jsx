@@ -3,12 +3,15 @@ import React from 'react'
 import img1 from "../../images/img1.jpg"
 import img2 from "../../images/img2.jpg"
 import img3 from "../../images/img3.jpg"
+import AnchorLink from "react-anchor-link-smooth-scroll-v2"
+import { BsArrowDownCircleFill } from "react-icons/bs"
+
 
 export default function Philosophie(){
 
 
 	return(
-		<div className="philosophie">
+		<div className="philosophie" id="philosophie">
 			<div className="moto-container">
 				<h1>MY PHILOSOPHY
 				HOLISTICALLY HEALTHY.
@@ -23,6 +26,7 @@ export default function Philosophie(){
 				<img className="img1 foto" src={img1} alt="image 1" />
 				<img className="img2 foto" src={img2} alt="image 2" />
 				<img className="img3 foto" src={img3} alt="image 3" />
+					<AnchorLink href="#exercise"><BsArrowDownCircleFill /></AnchorLink>
 			</div>
 		</div>
 	)

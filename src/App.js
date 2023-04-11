@@ -9,7 +9,7 @@ import Footer from './components/footer/Footer';
 // import photo4 from "./images/photo-4.png"
 // import personal from "./images/personal.png"
 // import wa from "./images/WhatsAppButtonGreenMedium.png"
-import { BsWhatsapp } from "react-icons/bs"
+// import { BsWhatsapp } from "react-icons/bs"
 import Philosophie from './components/philosophie/Philosophie.jsx';
 import Nutrion from './components/nutrition/Nutrion.jsx';
 

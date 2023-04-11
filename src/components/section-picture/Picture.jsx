@@ -8,7 +8,7 @@ export default function Pictuer() {
 	return (
 		<div id="foto" className="picture">
 
-			<div className='greetings'><h1>Welcome to <mark>Pipi</mark> health world</h1></div>
+			<div className='greetings'><h1>Welcome to <mark>Pipi</mark> health world.</h1></div>
 
 			<div className="picture-container">
 				<img src={home} alt="baner" className="onscroll-image-fade-in" />
@@ -19,7 +19,7 @@ export default function Pictuer() {
 					<p> Take <mark>control</mark> of your body</p>
 				</div>
 				<div className="button-container">
-					<AnchorLink href="#quality"><BsArrowDownCircleFill /></AnchorLink>
+					<AnchorLink href="#philosophie"><BsArrowDownCircleFill /></AnchorLink>
 				</div>
 
 				{/* <p>Control your diet, sleep well, exercise regularly, live long.</p> */}
