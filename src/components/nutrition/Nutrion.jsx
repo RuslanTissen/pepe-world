@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Nutrion.scss"
+import AnchorLink from "react-anchor-link-smooth-scroll-v2"
+import { BsArrowDownCircleFill } from "react-icons/bs"
 
 function Nutrion() {
 	return (
@@ -57,6 +59,7 @@ function Nutrion() {
 					<div className="tips__container tips__container6">
 						<h2>Lorem, ipsum.</h2>
 						<p className='tips__text6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consectetur nesciunt exercitationem sit maxime eum consequuntur vel illum veniam eius expedita, vero iste laboriosam impedit repudiandae minima, dicta asperiores saepe?</p>
+						<AnchorLink href="#stretching"><BsArrowDownCircleFill /></AnchorLink>
 					</div>
 				</div>
 			</div>
