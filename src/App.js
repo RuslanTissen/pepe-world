@@ -1,6 +1,6 @@
 import './App.scss';
 import Header from './components/header/Header.jsx';
-// import MidSection from './components/midle/Mid-section';
+import Stretching from './components/stretching/Stretching.jsx';
 import Pictuer from './components/section-picture/Picture';
 import Exercise from './components/exersize/exercise';
 import Footer from './components/footer/Footer';
@@ -30,6 +30,7 @@ function App() {
 
 				<Nutrion />
 
+				<Stretching />
 
 			</div>
 
