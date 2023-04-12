@@ -5,7 +5,7 @@ import str from "../../images/str.jpg"
 function MidSection(props) {
 
 	return (
-		<div className="stretching">
+		<div className="stretching" id="stretching">
 
 			<div className="stretching__text-box">
 				<h1>A Program as Unique as You Are.</h1>
