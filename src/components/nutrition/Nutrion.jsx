@@ -22,36 +22,36 @@ function Nutrion() {
 				<div className="images">
 					<div className="img1 img"></div>
 					<div className="tips__container tips__container1">
-						<h2>Lorem, ipsum.</h2>
-						<p className='tips__text1'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque sequi aut repellat, laudantium nobis illum placeat repudiandae adipisci molestiae sint, id natus necessitatibus asperiores omnis nemo vero, fugiat dolorem! Incidunt!</p>
+						<h2>Natural Diet.</h2>
+						<p className='tips__text1'>Natural Diet has an integrative way to see food, what we look foward here is to beeing healthy with out restrictions just adding nutrients on each meal so as the main goal is gaining health this type of diet encourage people to listen to theirs bodys and eat when they really feels so, what is more, to eat what they need.</p>
 					</div>
 				</div>
 
 				<div className="images"><div className="img2 img"></div>
 					<div className="tips__container tips__container2">
-						<h2>Lorem, ipsum.</h2>
-						<p className='tips__text2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, dolore in expedita inventore sequi eaque, unde est odio ullam ratione libero omnis perferendis aspernatur quas magni incidunt quae. Veritatis, libero?</p>
+						<h2>Keto Diet.</h2>
+						<p className='tips__text2'>Keto Diet was a boom since it promised to make people lose weight but the really meaning of cutting off all the carbohidrates is to give a body rest of all artificial products but as carbs seems to be the same as sugar once they arrive to the body sistem this diet go a Little beyond and cut natural carbohidrates as rice, potatoes, fruits… So the body can focus on fat.</p>
 					</div>
 				</div>
 
 				<div className="images"><div className="img3 img"></div>
 					<div className="tips__container tips__container3">
-						<h2>Lorem, ipsum.</h2>
-						<p className='tips__text3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias obcaecati repellendus asperiores culpa aliquam dolore ipsum, aperiam repellat, nostrum ipsa tenetur tempore doloremque autem? Hic voluptatum quis quod. Culpa, voluptates?</p>
+						<h2>Low Carb Diet.</h2>
+						<p className='tips__text3'>Low Carb Diet manage pretty similar to Keto diet but allows lots of food with diferents amounts of carbs, prioritizing real food instead baked goods or processed foods. This kind of diet suggest an easy going way to eat just looking foward nutrients on carbs and focusing on protein and fats. </p>
 					</div>
 				</div>
 
 				<div className="images"><div className="img4 img"></div>
 					<div className="tips__container tips__container4">
-						<h2>Lorem, ipsum.</h2>
-						<p className='tips__text4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quidem, vel iusto commodi error laboriosam! Harum saepe nemo quo. Obcaecati veniam nesciunt maiores. Vero, sit ducimus fugit rem ut illum!</p>
+						<h2>Vegetarian Diet.</h2>
+						<p className='tips__text4'>Vegetarian Diet exist since all the times but it wasn´t really supported by doctors for the lack of knowledge about nutirents and effects, nowadays there are people allergic to meat and even more animal lovers so the medicine had to improve and diets focused on plants, grains and cereals can bring all the nutrients humans needs with the correct match.</p>
 					</div>
 				</div>
 
 				<div className="images"><div className="img5 img"></div>
 					<div className="tips__container tips__container5">
-						<h2>Lorem, ipsum.</h2>
-						<p className='tips__text5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam fugit sit totam ipsa quasi! Beatae deleniti pariatur aperiam quasi, nostrum nobis cupiditate quidem consequuntur cumque autem doloribus exercitationem ducimus eligendi.</p>
+						<h2>Fasting.</h2>
+						<p className='tips__text5'>Fasting may provide several health benefits, including weight loss, improved blood sugar control, and decreased inflammation. It might also offer protection against certain conditions like cancer and neurodegenerative disorders. For many people, somewhere between 14 and 18 hours of fasting per day is the ideal range, providing more significant weight loss benefits than a 12-hour fast.</p>
 					</div>
 				</div>
 

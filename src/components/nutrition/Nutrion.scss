@@ -122,24 +122,27 @@
 			}
 		}
 	}
-	@media (min-width: 400px) {
+	@media (min-width: 600px) {
 		.nutrition__tips--container{
 			.images{
 				width: 48%;
-				height: 750px;
+				height: 700px;
 				flex: 1 0 48%;
 				border: 5px;
+				img{
+					height: 40%;
+				}
 			}
 			.tips__container{
 					height: 60%;
-					// overflow: scroll;
+					overflow: hidden;
 				p{
-					font-size: .8rem;
+					font-size: 1.1rem;
 				}
 			}
 		}
 	}
-	@media (min-width: 900px) {
+	@media (min-width: 1170px) {
 		.nutrition-container{
 			display: flex;
 			.nutrition__text--container{
@@ -157,6 +160,7 @@
 			.images{
 				width: 50%;
 				flex: 1 0 31%;
+				// height: 750px;
 				.tips__container{
 					p{
 						font-size: 1.3rem;
