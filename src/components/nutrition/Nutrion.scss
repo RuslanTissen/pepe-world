@@ -70,7 +70,7 @@
 		}
 		.tips__container{
 			padding: 32px;
-		
+			background-color: rgb(89, 149, 113);
 			h2{
 				margin-bottom: 10px;
 			}
@@ -80,23 +80,29 @@
 				font-weight: 300;
 			}
 		}
-		.tips__container1{
-			background-color: rgb(255,221,0);
-		}
-		.tips__container2{
-			background-color: rgb(239,127,19);
-		}
-		.tips__container3{
-			background-color: rgb(204,0,9);
-		}
-		.tips__container4{
-			background-color: rgb(174,98,158);
-		}
-		.tips__container5{
-			background-color:rgb(0,119,200);
-		}
+		// .tips__container1{
+		// 	// background-color: rgb(255,221,0);
+		// 	background-color: rgb(122,201,153);
+		// }
+		// .tips__container2{
+		// 	// background-color: rgb(239,127,19);
+		// 	background-color: rgb(122,201,153);
+		// }
+		// .tips__container3{
+		// 	// background-color: rgb(204,0,9);
+		// 	background-color: rgb(122,201,153);
+		// }
+		// .tips__container4{
+		// 	// background-color: rgb(174,98,158);
+		// 	background-color: rgb(122,201,153);
+		// }
+		// .tips__container5{
+		// 	// background-color:rgb(0,119,200);
+		// 	background-color: rgb(122,201,153);
+		// }
 		.tips__container6{
-			background-color: rgb(0,133,62);
+			// background-color: rgb(0,133,62);
+			background-color: rgb(89, 149, 113);
 			position: relative;
 			a{
 				position: absolute;

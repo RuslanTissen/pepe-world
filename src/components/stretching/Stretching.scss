@@ -17,12 +17,17 @@
 		.stretching__text{
 			font-weight: 300;
 			padding: 32px;
-			background-color: #282421;
+			// background-color: #282421;
+			background-color: rgb(40, 66, 50);
 			color: white;
 			.stretching__text--container{
-				p{
-					padding: 10px 0;
+				h2{
+					font-size: 2em;
+					line-height: 1.3;
 				}
+				// p{
+				// 	padding: 10px 0;
+				// }
 			}
 			.link-container{
 				display: flex;
@@ -75,9 +80,12 @@
 				color: white;
 				.stretching__text--container{
 					height: 70%;
-					p{
-						font-size: 1.3rem;
+					h2{
+						font-size: 2.5rem;
 					}
+					// p{
+					// 	font-size: 1.3rem;
+					// }
 				}
 				.link-container{
 					height: 30%;

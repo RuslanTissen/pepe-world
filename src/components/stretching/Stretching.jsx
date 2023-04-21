@@ -8,7 +8,7 @@ function MidSection(props) {
 		<div className="stretching" id="stretching">
 
 			<div className="stretching__text-box">
-				<h1>A Stretching Program as Unique as You Are.</h1>
+				<h1>All Programs as Unique as You Are.</h1>
 			</div>
 
 			<div className="stretching__image-box">
@@ -18,12 +18,12 @@ function MidSection(props) {
 
 				<div className="stretching__text">
 					<div className="stretching__text--container">
-						<h2>Stretching.</h2>
-						<p>During stretching, more oxygen and blood enters the muscle, and metabolism improves. As a result, the muscle recovers faster after a workout or injury.</p>
-						<p className="extra-text">Yes, you can lose weight from stretching, this is due to the fact that during stretching, muscle fibers receive more oxygen. As a result, blood circulation improves, nutrients are fully supplied to the tissue structures.</p>
+						<h2>Feel free to contact me to arrange your consultation appointment.</h2>
+						{/* <p>During stretching, more oxygen and blood enters the muscle, and metabolism improves. As a result, the muscle recovers faster after a workout or injury.</p> */}
+						{/* <p className="extra-text">Yes, you can lose weight from stretching, this is due to the fact that during stretching, muscle fibers receive more oxygen. As a result, blood circulation improves, nutrients are fully supplied to the tissue structures.</p> */}
 					</div>
 					<div className="link-container">
-						<a href='mailto:priscylatosti@gmail.com' className="btn">learn more</a>
+						<a href='mailto:priscylatosti@gmail.com' className="btn">Contact</a>
 					</div>
 				</div>
 			</div>

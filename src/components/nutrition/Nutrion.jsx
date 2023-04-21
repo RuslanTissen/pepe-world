@@ -57,8 +57,8 @@ function Nutrion() {
 
 				<div className="images"><div className="img6 img"></div>
 					<div className="tips__container tips__container6">
-						<h2>Lorem, ipsum.</h2>
-						<p className='tips__text6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consectetur nesciunt exercitationem sit maxime eum consequuntur vel illum veniam eius expedita, vero iste laboriosam impedit repudiandae minima, dicta asperiores saepe?</p>
+						<h2>Autophagy.</h2>
+						<p className='tips__text6'>Japanese cell biologist Yoshinori Ohsumi won the Nobel Prize in Medicine in 2016 for his research on how cells recycle and renew their content, a process called autophagy. Fasting activates autophagy, which helps slow down the aging process and has a positive impact on cell renewal.</p>
 						<AnchorLink href="#stretching"><BsArrowDownCircleFill /></AnchorLink>
 					</div>
 				</div>
