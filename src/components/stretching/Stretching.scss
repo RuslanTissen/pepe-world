@@ -6,7 +6,12 @@
 		text-transform: uppercase;
 	}
 	.stretching__image-box{
+		height: 800px;
+		display: flex;
+		flex-wrap: wrap;
 		.stretching__image{
+			flex: 1 1 100%;
+			height: 50%;
 			img{
 				width: 100%;
 				height: 100%;
@@ -15,17 +20,20 @@
 			}
 		}
 		.stretching__text{
+			height: 50%;
 			font-weight: 300;
 			padding: 32px;
-			// background-color: #282421;
 			background-color: rgb(40, 66, 50);
 			color: white;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
 			.stretching__text--container{
 				h2{
 					// text-transform: uppercase;
 					// letter-spacing: 1px;
 					// word-spacing:7px;
-					font-size: 2em;
+					font-size: 1.7em;
 					line-height: 1.4;
 				}
 			}
@@ -52,12 +60,54 @@
 			}
 		}
 	}
+	@media (min-width:500px) {
+		.stretching__image-box{
+			.stretching__image{
+				height: 60%;
+			}
+			.stretching__text{
+				height: 40%;
+			}
+		}
+	}
+	@media (min-width:600px) {
+		.stretching__image-box{
+			height: 850px;
+			.stretching__image{
+				height: 65%;
+			}
+			.stretching__text{
+				height: 35%;
+			}
+		}
+	}
+	@media (min-width:700px) {
+		.stretching__image-box{
+			height: 900px;
+			.stretching__image{
+				height: 70%;
+			}
+			.stretching__text{
+				height: 30%;
+			}
+		}
+	}
+	@media (min-width:800px) {
+		.stretching__image-box{
+			.stretching__image{
+				height: 75%;
+			}
+			.stretching__text{
+				height: 25%;
+			}
+		}
+	}
 	@media (min-width: 900px) {
 		.stretching__image-box{
-			display: flex;
-		
+			height: 850px;
 			.stretching__image{
-				width: 60%;
+				flex: 1 1 55%;
+				height: 100%;
 				background-image: url(../../images/str1.jpg);
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -73,9 +123,10 @@
 				}
 			}
 			.stretching__text{
-				width: 40%;
+				flex: 1 1 45%;
+				height: 100%;
 				font-weight: 300;
-				padding: 32px;
+				// padding: 32px;
 				// background-color: #282421;
 				color: white;
 				.stretching__text--container{
@@ -87,7 +138,7 @@
 				.link-container{
 					height: 30%;
 					display: flex;
-					justify-content: end;
+					// justify-content: end;
 					align-items: end;
 					a{
 						display: flex;
