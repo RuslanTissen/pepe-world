@@ -56,28 +56,28 @@
 		.image-container{
 			gap: 15px;
 			.foto{
-				height: 550px;
+				height: 600px;
 			}
 		}
 	}
 	@media (min-width:600px) {
 		.image-container{
 			.foto{
-				height: 600px;
+				height: 650px;
 			}
 		}
 	}
 	@media (min-width:700px) {
 		.image-container{
 			.foto{
-				height: 650px;
+				height: 750px;
 			}
 		}
 	}
 	@media (min-width:800px) {
 		.image-container{
 			.foto{
-				height: 750px;
+				height: 850px;
 			}
 		}
 	}
@@ -85,7 +85,8 @@
 		.image-container{
 			gap: 20px;
 			.foto{
-				flex: 1 1 32%;
+				height: 750px;
+				flex: 1 1 31%;
 			}
 		}
 	}
