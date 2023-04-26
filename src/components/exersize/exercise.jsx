@@ -18,9 +18,9 @@ function exercise() {
 		<div className="exercise" id="exercise">
 			<div className="exercise-text">
 				{/* <h1>recovery sport.</h1> */}
-				<h1>STRENGTH</h1>
+				<h1>STRENGTH.</h1>
 				{/* <p>Rehabilitation sports serve both young and old to restore health. Be it back pain, shoulder problems, hip problems, post surgery, accident/injury, etc.</p> */}
-				<p>Mobility</p>
+				<p>Mobility.</p>
 			</div>
 
 			<div className="exercise-images">

@@ -16,7 +16,7 @@ export default function Pictuer() {
 
 			<div className="moto">
 				<div className="text-container">
-					<p> Take <mark>control</mark> of your body</p>
+					<p> Take <mark>control</mark> of your body.</p>
 				</div>
 				<div className="button-container">
 					<AnchorLink href="#philosophie"><BsArrowDownCircleFill /></AnchorLink>

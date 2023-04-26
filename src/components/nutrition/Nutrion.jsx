@@ -23,7 +23,7 @@ function Nutrion() {
 					<div className="img1 images-img"></div>
 					<div className="tips__container tips__container1">
 						<h2>LIVING HEALTHY.</h2>
-						<p className='tips__text1'>Natural Diet has an integrative way to see food, what we look foward here is to beeing healthy with out restrictions just adding nutrients on each meal so as the main goal is gaining health this type of diet encourage people to listen to theirs bodys and eat when they really feels so, what is more, to eat what they need.</p>
+						<p className='tips__text1'>This philosophy focuses on nutrition and body goals equally. It seeks an optimal balance between fit, lean and muscle. It is an approach to finding the best version of yourself and your desired lifestyle. This type of program encourages people to listen to their body and only eat when they really feel the need to.</p>
 					</div>
 				</div>
 
@@ -31,7 +31,7 @@ function Nutrion() {
 					<div className="img2 images-img"></div>
 					<div className="tips__container tips__container2">
 						<h2>MAKING MUSCLE.</h2>
-						<p className='tips__text2'>Keto Diet was a boom since it promised to make people lose weight but the really meaning of cutting off all the carbohidrates is to give a body rest of all artificial products but as carbs seems to be the same as sugar once they arrive to the body sistem this diet go a Little beyond and cut natural carbohidrates as rice, potatoes, fruits… So the body can focus on fat.</p>
+						<p className='tips__text2'>This is for builders! Are you in the process of building muscle? Then this is the perfect program for you. I will introduce you to the perfect protein diet and best exercises to help you achieve your fitness goals.</p>
 					</div>
 				</div>
 
@@ -39,7 +39,7 @@ function Nutrion() {
 					<div className="img3 images-img"></div>
 					<div className="tips__container tips__container3">
 						<h2>VEGAN-LAND.</h2>
-						<p className='tips__text3'>Low Carb Diet manage pretty similar to Keto diet but allows lots of food with diferents amounts of carbs, prioritizing real food instead baked goods or processed foods. This kind of diet suggest an easy going way to eat just looking foward nutrients on carbs and focusing on protein and fats. </p>
+						<p className='tips__text3'>This plan is for those animal lovers, those who want to change the nutritional rules and standards for muscle building and strength training.</p>
 						<AnchorLink href="#stretching"><BsArrowDownCircleFill /></AnchorLink>
 					</div>
 				</div>
