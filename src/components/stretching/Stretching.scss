@@ -9,6 +9,7 @@
 		height: 800px;
 		display: flex;
 		flex-wrap: wrap;
+		margin-bottom: 30px;
 		.stretching__image{
 			flex: 1 1 100%;
 			height: 50%;
@@ -146,6 +147,33 @@
 						align-items: center;
 					}
 				}
+			}
+		}
+	}
+	.stretching__virtual-box {
+		padding: 10px;
+		text-align: center;
+		background-color: rgb(58, 42, 40);
+		h1{
+			color: white;
+		font-size: 1.5rem;
+		}
+		a{
+			padding: 10px 60px;
+			margin: 30px 0;
+		}
+	}
+	@media (min-width: 700px) {
+		.stretching__virtual-box {
+			h1{
+				font-size: 2rem;
+			}
+		}
+	}
+	@media (min-width: 900px) {
+		.stretching__virtual-box {
+			h1{
+				font-size: 3rem;
 			}
 		}
 	}

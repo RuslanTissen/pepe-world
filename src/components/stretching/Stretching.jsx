@@ -1,6 +1,7 @@
 import React from "react"
 import './Stretching.scss'
 import str from "../../images/str.jpg"
+import Button from '@mui/material/Button';
 
 function MidSection(props) {
 
@@ -26,6 +27,11 @@ function MidSection(props) {
 						<a href='mailto:priscylatosti@gmail.com' className="btn">Contact</a>
 					</div>
 				</div>
+			</div>
+
+			<div className="stretching__virtual-box">
+				<h1>If you want to train with me virtual or as a personal trainer.</h1>
+				<Button href='mailto:priscylatosti@gmail.com' variant="contained" color="info">Contact me</Button>
 			</div>
 
 		</div>
