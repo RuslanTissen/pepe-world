@@ -10,8 +10,6 @@ function Header() {
 	return (
 		<div className="nav">
 			<ul className='ul-first'>
-				{/* <AnchorLink href="#foto" className="logo" style={{fontSize:"1.5em"}}><AiOutlineHome /></AnchorLink> */}
-				{/* <li className="logo"><AnchorLink href="#foto">PIPI <GiBodyBalance/> SPORT</AnchorLink></li> */}
 				<li className="logo"><AnchorLink href="#foto">HOME</AnchorLink></li>
 				<li className="alq"><AnchorLink href="#philosophie">ABOUT ME</AnchorLink> </li>
 				<li className="detalles"><AnchorLink href="#exercise">STRENGTH</AnchorLink></li>
