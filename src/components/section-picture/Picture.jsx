@@ -22,8 +22,6 @@ export default function Pictuer() {
 					<AnchorLink href="#philosophie"><BsArrowDownCircleFill /></AnchorLink>
 				</div>
 
-				{/* <p>Control your diet, sleep well, exercise regularly, live long.</p> */}
-				{/* <a href="#">read more</a> */}
 			</div>
 
 		</div>
