@@ -1,15 +1,18 @@
 .nav{
-	width: 100vw;
+	width: 100%;
 	height: fit-content;
 	position: fixed;
 	top: 0;
   	right: 0;
 	z-index: 100;
 	ul{
+		max-width: 1700px;
+		margin: 0 auto;
+		padding-inline: 30px;
 		display: flex;
 		align-items: center;
 		list-style-type: none;
-		justify-content: space-around;
+		justify-content: space-between;
 		font-family: 'Montserrat', sans-serif;
 		font-size: 1.5em;
 		.logo{
@@ -36,7 +39,7 @@
 		}
 	}
 		svg{
-			color: white;
+			color: rgb(71, 70, 70);
 			display: flex;
 			align-items: center;
 			transition: all .2s;
@@ -56,10 +59,10 @@
 				display: inline-block;
 			}
 		}
-		.ul-first{
-			justify-content: space-between;
-			padding: 0 25px;
-		}
+		// .ul-first{
+			// justify-content: space-between;
+			// padding: 0 30px;
+		// }
 		.ul-first li:not(:first-child){
 			display: none;
 		}
