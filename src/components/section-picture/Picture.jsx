@@ -24,7 +24,6 @@ export default function Pictuer() {
 				<div className="button-container">
 					<AnchorLink href="#philosophie"><BsArrowDownCircleFill /></AnchorLink>
 				</div>
-
 			</div>
 
 		</div>
