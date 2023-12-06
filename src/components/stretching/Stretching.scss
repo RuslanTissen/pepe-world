@@ -28,7 +28,7 @@
 			color: white;
 			display: flex;
 			flex-direction: column;
-			justify-content: space-between;
+			justify-content: flex-end;
 			.stretching__text--container{
 				h2{
 					// text-transform: uppercase;
@@ -139,8 +139,7 @@
 				.link-container{
 					height: 30%;
 					display: flex;
-					// justify-content: end;
-					align-items: end;
+					align-items: flex-end;
 					a{
 						display: flex;
 						justify-content: center;

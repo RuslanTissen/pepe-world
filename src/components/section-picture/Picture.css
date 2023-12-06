@@ -37,7 +37,7 @@
 .picture .moto .button-container {
   padding: 20px 20px 20px;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   position: relative;
   padding-left: 50px;
 }

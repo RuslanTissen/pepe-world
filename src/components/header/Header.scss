@@ -59,10 +59,7 @@
 				display: inline-block;
 			}
 		}
-		// .ul-first{
-			// justify-content: space-between;
-			// padding: 0 30px;
-		// }
+		
 		.ul-first li:not(:first-child){
 			display: none;
 		}
