@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './Header.scss'
 import { GiHamburgerMenu } from 'react-icons/gi';
 import AnchorLink from 'react-anchor-link-smooth-scroll-v2';
-// import {GiBodyBalance} from "react-icons/gi"
 
 function Header() {
 	const [show, setShow] = useState(false)
