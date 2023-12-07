@@ -1,6 +1,6 @@
 import React from "react"
 import './Picture.scss'
-import home from "../../images/exr-2.jpg"
+import home from "../../images/exr-2.png"
 import AnchorLink from 'react-anchor-link-smooth-scroll-v2';
 import { BsArrowDownCircleFill } from "react-icons/bs"
 import LazyLoad from 'react-lazy-load';
