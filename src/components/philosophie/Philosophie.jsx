@@ -1,8 +1,8 @@
 import "./Philosophie.scss"
 import React from 'react'
-import img1 from "../../images/phs1.jpg"
-import img2 from "../../images/phs3.jpg"
-import img3 from "../../images/phs2.jpg"
+import img1 from "../../images/phs1.png"
+import img2 from "../../images/phs3.png"
+import img3 from "../../images/phs2.png"
 import AnchorLink from "react-anchor-link-smooth-scroll-v2"
 import { BsArrowDownCircleFill } from "react-icons/bs"
 import LazyLoad from 'react-lazy-load';
