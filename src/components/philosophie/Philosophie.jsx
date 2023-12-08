@@ -5,7 +5,6 @@ import img2 from "../../images/phs3.png"
 import img3 from "../../images/phs2.png"
 import AnchorLink from "react-anchor-link-smooth-scroll-v2"
 import { BsArrowDownCircleFill } from "react-icons/bs"
-import LazyLoad from 'react-lazyload';
 
 export default function Philosophie() {
 	return (
@@ -22,19 +21,13 @@ export default function Philosophie() {
 
 			<div className="image-container">
 				<div className="foto">
-					<LazyLoad>
 						<img className="img" src={img1} alt="ups, somthing gone" />
-					</LazyLoad>
 				</div>
 				<div className="foto">
-					<LazyLoad>
 						<img className="img" src={img2} alt="ups, somthing gone" />
-					</LazyLoad>
 				</div>
 				<div className="foto foto3">
-					<LazyLoad>
 						<img className="img" src={img3} alt="ups, somthing gone" />
-					</LazyLoad>
 					<AnchorLink href="#exercise"><BsArrowDownCircleFill /></AnchorLink>
 				</div>
 
