@@ -21,13 +21,13 @@ export default function Philosophie() {
 
 			<div className="image-container">
 				<div className="foto">
-						<img className="img" src={img1} alt="ups, somthing gone" />
+					<img className="img" src={img1} alt="ups, somthing gone" />
 				</div>
 				<div className="foto">
-						<img className="img" src={img2} alt="ups, somthing gone" />
+					<img className="img" src={img2} alt="ups, somthing gone" />
 				</div>
 				<div className="foto foto3">
-						<img className="img" src={img3} alt="ups, somthing gone" />
+					<img className="img" src={img3} alt="ups, somthing gone" />
 					<AnchorLink href="#exercise"><BsArrowDownCircleFill /></AnchorLink>
 				</div>
 
