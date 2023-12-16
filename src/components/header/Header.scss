@@ -5,6 +5,7 @@
 	top: 0;
 	right: 0;
 	z-index: 100;
+	background-color: black;
 	ul {
 		max-width: 1700px;
 		margin: 0 auto;
@@ -28,24 +29,24 @@
 		li {
 			a {
 				height: 40px;
-				color: rgb(71, 70, 70);
-				transition: all 0.2s;
+				color: rgb(170, 166, 166);
+				transition: all 0.2s ease-in-out;
 				font-weight: 400;
 				position: relative;
 				&:hover {
-					color: rgb(145, 143, 143);
+					color: white;
 				}
 			}
 		}
 	}
 	svg {
-		color: rgb(71, 70, 70);
+		color: rgb(170, 166, 166);
 		display: flex;
 		align-items: center;
-		transition: all 0.2s;
+		transition: all 0.2s ease-in-out;
 		font-weight: 300;
 		&:hover {
-			opacity: 0.5;
+			color: white;
 		}
 	}
 	svg:not(:first-child) {
